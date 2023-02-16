@@ -1,0 +1,226 @@
+
+<html>
+    <head>
+
+        <title>My Website</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/bb216901b2.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="Images/logo.jpg" class="logo" style="height: 50px;">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p>Web Developer</p>
+                    <h1>
+                        Hello,I'm<span> Usaid</span> <br>Mirza from Pakistan 
+                    </h1>
+                </div>
+            </div>
+        </div>
+      <!-- --------about------- -->
+
+        <div id="about">
+            <div class="container">
+               <div class="row">
+                <div class="about-col-1">
+                    <img src="Images/Sidepic.jpg">
+                </div>
+                    <div class="about-col-2">
+                       <h1 class="sub-title"> About me</h1>
+                       <p><strong>Self-motivated team player seeking a position as a software engineer with Next Generation Web/Mobile Development where I can apply my knowledge of software development to meet client needs and their expectations.<br>I am a talented, ambitious and hardworking individual, with broad skills and experience in HTML,CSS and JAVASCRIP , social media and leading projects. Furthermore, I am adept at handling multiple tasks on a daily basis competently and at working well under pressure.<br>A key strength is communication; building strong relationships with people in order to deliver the best results.</strong></p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')" >Skills</p>
+                            <p class="tab-links" onclick="opentab ('experience')" >Experience</p>
+                            <p class="tab-links" onclick="opentab ('education')" >Education</p>
+                        </div>
+                            <div class="tab-contents active-tab" id="skills">
+                               <ul>
+                                <li><span>Web Development</span><br>Web App Development</li>
+                                <li><span>Graphic designer </span><br>Editing Photo/Video </li>
+                                <li><span>MS Office/MS Word</span></li>
+                               </ul>
+
+                            </div>
+                           <div class="tab-contents" id="experience">
+                               <ul>
+                                <li>Have 1 year Experience in HTML,CSS and JAVASCRIP </li>
+                               </ul>
+
+                            </div>
+                            <div class="tab-contents" id="education">
+                                <ul>
+                                 <li><span>2018-2020</span><br> Matric from stars high school</li>
+                                 <li><span>2020-2022</span><br>Intermediate in computer sciences<br>from govt.degree collage for boys,Muridke</li>
+                                  <li><span>2023</span><br>bachelors in computer sciences<br>from Virtual University </li>
+                                </ul>
+
+                            </div>
+                    </div>
+                    
+                    </div>
+                </div>
+        </div>
+     <!-- ---------services-------- -->
+           <div class="services">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1> 
+                <div class="serviceslist">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>HTML</h2>
+                        <p>
+                            Have a good command Html and can make programes easily
+                        </p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-css3"></i>
+                        <h2>CSS</h2>
+                        <p>
+                            Have a good command in Css and can make classes in it
+                        </p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-js"></i>
+                        <h2>JAVASCRIPT</h2>
+                        <p>Have a good command in JavaScript </p>
+                        <a href="#">Learn more</a>
+                    </div>
+                </div>
+            </div>
+           </div>
+         <!-- ---------portfolio-------- -->
+         <div id="portfolio">
+             <div class="container">
+                <h1><class="sub-title">My Work</h1>
+                   <div class="work-list">
+                    <div class="work">
+                        <img src="Images/HtmlPic.jpeg">
+                        <div class="layer">
+                           <h3>Html</h3>
+                           <p> HTML (HyperText Markup Language) is the code that is used to structure a web page and its content.</p>
+                           <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="Images/CssPic.webp">
+                        <div class="layer">
+                            <h3>Css</h3>
+                            <p>CSS (Cascading Style Sheets) is used to style and layout web pages</p>
+                            <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                         </div>
+                    </div>
+                    <div class="work">
+                        <img src="Images/JavaPic.jpeg">
+                        <div class="layer">
+                            <h3>JavaScript</h3>
+                            <p>Javascript is used by programmers across the world to create dynamic and interactive web content like applications and browsers</p>
+                            <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                         </div>
+                    </div>
+                   </div>
+                   <a href="#" class="btn">See more</a>
+             </div>
+          </div>
+            <!----------contact----------->
+            <div id="contact">
+                <div class="container">
+                    <div class="row">
+                        <div class="contact-left">
+                            <h1 class="sub-title">Contact Me</h1>
+                            <p><i class="fa-solid fa-envelope"></i>Usaidad345@gmail.com</p>
+                            <p><i class="fa-solid fa-square-phone"></i>03144333646</p>
+                            <div class="social-icons">
+                               <a href="https://facebook.com/itsusaid"><i class="fa-brands fa-square-facebook"></i></a>
+                               <a href="https://instagram.com/usaid877"><i class="fa-brands fa-square-instagram"></i></a>
+                               <a href="https://linkedin.com"><i class="fa-brands fa-linkedin"></i></a>
+                               <a href="https://github.com"><i class="fa-brands fa-square-github"></i></a>
+                            </div>
+                            <a href="Images/My-Cv.pdf" download class="btn btn2">Download CV</a>
+                        </div>
+                        <div class="contact-right">
+                            <form name="submit-to-google-sheet">
+                                <input type="text" name="Name" placeholder="Your Name" required >
+                                <input type="email" name="Email" placeholder="Your Email" required >
+                                <textarea name="Message" rows="6" placeholder="Write Your Message Here "  ></textarea>
+                                <button type="submit" class="btn btn2">submit</button>
+                        
+                            </form>
+                            <span id="msg"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="copyright">
+                    <p>Copyright © Usaid</p>
+                </div>
+            </div>
+
+
+
+
+        <script>
+          var tablinks = document.getElementsByClassName("tab-links");        
+          var tabcontents = document.getElementsByClassName("tab-contents");
+
+          function opentab(tabname){
+             for(tablink of tablinks){
+             tablink.classList.remove("active-link");
+             }
+             for(tabcontent of tabcontents){
+             tabcontent.classList.remove("active-tab");
+             }
+             event.currentTarget.classList.add("active-link");
+             document.getElementById(tabname).classList.add("active-tab");
+
+          }
+
+
+
+
+        </script>
+
+        <script>
+            var sidemenu = document.getElementById("sidemenu");
+                 
+            function openmenu(){
+                sidemenu.style.right = "0";
+            }
+            function closemenu(){
+                sidemenu.style.right = "-200px";
+            }
+
+
+        </script>
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbx31QnSW-I6l9Lteha-tO9GJjPfmPQYZlv015wHSvGT8Lm6pmfYVFA4uI9dH_pHeJxQ/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg = document.getElementById("msg")
+          
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {
+                    msg.innerHTML= "Messge sent successfully"
+                    setTimeout(function{
+                        msg.innerHTML=""
+                    },5000)
+                    form.reset
+                })
+                .catch(error => console.error('Error!', error.message))
+            })
+          </script>
+    </body>
+</html>
